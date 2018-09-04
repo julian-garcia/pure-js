@@ -1,0 +1,15 @@
+html {
+  background-color: #e0e0e0;
+}
+
+h1, h2, h3, h4, h5, h6, .card-title {
+  font-family: 'Marck Script', cursive;
+}
+
+p, a, input, label, li, button {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.container {
+  margin-top: 2rem;
+}
