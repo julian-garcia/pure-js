@@ -1,0 +1,40 @@
+body, html {
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  min-width: 500px;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+#book-table-wrapper {
+  overflow-x:auto;
+}
+
+.success, .error {
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.success {
+  background-color: green;
+}
+
+.error {
+  background-color: red;
+}

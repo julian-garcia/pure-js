@@ -11,6 +11,8 @@ const loading = document.getElementById('loading');
 
 loanForm.addEventListener('submit', calculateResults);
 
+// Calculate monthly loan payments and derive total payment
+// and total interest from that
 function calculateResults(e) {
   if (loanAmount.value && loanInterest.value && loanRepayment.value){
     if (loanAmount.value > 0 && loanInterest.value > 0){
