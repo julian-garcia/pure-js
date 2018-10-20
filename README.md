@@ -15,3 +15,6 @@ Retrieve Github user and repo details via the Github API and render it to the we
 
 ## Current Weather
 Retrieve weather data from a weather API provided by [apixu.com](https://www.apixu.com) and render it to the DOM, storing the latest retrieved city in local storage so that it persists upon page refresh. [Weather](#)
+
+## Profiles
+Iterator in conjunction with a random user generator API [randomuser.me](https://randomuser.me) to loop through ten random (fake) profiles and render details to the DOM. Upon looping through the ten profiles, a page reload is used to force another API to retrieve 10 more profiles. [Profiles](#)
